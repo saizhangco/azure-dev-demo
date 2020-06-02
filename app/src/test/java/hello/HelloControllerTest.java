@@ -26,6 +26,6 @@ public class HelloControllerTest {
     public void getHello() throws Exception {
         mvc.perform(MockMvcRequestBuilders.get("/").accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
-                .andExpect(content().string(equalTo("Hello World!(zy55)")));
+                .andExpect(content().string(equalTo("自动集成")));
     }
 }
