@@ -8,6 +8,6 @@ public class HelloController {
     
     @RequestMapping("/")
     public String index() {
-        return "自动集成";
+        return "1111111111";
     }   
 }
